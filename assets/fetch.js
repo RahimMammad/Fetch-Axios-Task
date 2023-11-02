@@ -10,7 +10,7 @@ const fetchFunction = async () => {
 
         let cardsHTML = "";
 
-        data.slice(0, 9).forEach((card) => {
+        data.forEach((card) => {
             cardsHTML += `
                 <div class="main-card">
                     <img src="${card.image.medium}">
